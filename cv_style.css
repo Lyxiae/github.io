@@ -194,8 +194,8 @@ p {
 
 @media screen and (max-width:980px){
     p {
-             font:normal normal 600 1.2em/100% var(--fontTitles);
-             padding:5px 7%;
+         font:normal normal 600 1.2em/100% var(--fontTitles);
+         padding:5px 7%;
     }
     .column p {
         word-break:break-all;
