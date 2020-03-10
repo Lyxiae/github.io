@@ -69,6 +69,7 @@ p {
 .column nav li {
     margin:10px 0;
 }
+
 .column nav a {
     text-transform:uppercase;
     font: normal normal 600 1.1em/100% var(--fontTitles);
@@ -101,7 +102,6 @@ p {
     display:flex;
     justify-content:space-around;
     padding:5px 10px;
-    
 }
 
 .loisirs .fas {
@@ -244,13 +244,13 @@ p {
 
 @media screen and (max-width:1024px){
 
-
 }
 
 @media screen and (max-width:980px){
     .container{
         flex-flow:column-reverse wrap;
     }
+
     /*GENERAUX*/
 
     p {
@@ -281,6 +281,7 @@ p {
         display:flex;
         flex-flow:row wrap;
     }
+
     .contact p {
         width:50%;
     }
@@ -335,6 +336,7 @@ p {
     .main h1 {
         font-size:1.8em;
     }
+
     .main h2 {
         font: normal normal 500 1.6em/150% var(--fontBase);
     }
