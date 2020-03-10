@@ -41,15 +41,16 @@ p {
 
 .column a {
     font: normal normal 600 1.1em/100% var(--fontBase);
-    color:white;
     text-decoration:none;
+    color:#0a527b;
+    transition:0.25s ease-in-out;
 }
 
 .column h2 {
     width:100%;
     background-color:#B2EBF2;
     font:normal normal 600 1.1em/130% var(--fontTitles);
-    color:#0097A7;
+    color:#0a527b;
     text-transform:uppercase;
     font-weight:700;
     text-align:center;
@@ -71,6 +72,11 @@ p {
 .column nav a {
     text-transform:uppercase;
     font: normal normal 600 1.1em/100% var(--fontTitles);
+    color:white;
+}
+
+.contact a:hover {
+    filter:brightness(1.2);
 }
 
 .navaside {
@@ -88,7 +94,6 @@ p {
 
 .column p span {
     font:normal normal 600 1.0em/100% var(--fontTitles);
-    
 }
 
 .loisirs {
