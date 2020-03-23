@@ -181,7 +181,7 @@ p {
 
 .navmain a {
     color:var(--colorBase);
-    font: normal normal 600 1.4em/100% var(--fontTitles);
+    font: normal normal 600 1.4em/150% var(--fontTitles);
     text-decoration:none;
     text-transform:uppercase;
     transition:0.25s ease-in-out;
