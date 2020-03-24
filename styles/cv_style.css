@@ -2,316 +2,316 @@
 
 :root {
     --fontBase: 'Lato', sans-serif;
-    --fontTitles:'Montserrat', sans-serif;
-    --colorBase:#00BCD4;
+    --fontTitles: 'Montserrat', sans-serif;
+    --colorBase: #00BCD4;
 }
 
 *, :before, :after {
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 body {
-    background:#eee; 
+    background: #eee; 
 }
 
 p {
-    font: normal normal 0.84em/150% var(--fontBase);
-    padding:5px 0;
+    font: normal normal 0.84em/200% var(--fontBase);
+    padding: 5px 0;
 }
 
 .container {
-    max-width:1000px;
-    height:auto;
-    margin:0 auto;
-    display:flex;
-    flex-flow:row wrap;
+    max-width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 /*SIDEBAR*/
 
 .column {
-    width:250px;
-    background-color:var(--colorBase);
-    display:flex;
-    flex-flow:row wrap;
-    justify-content:center;
-    align-content:flex-start;
-    padding:30px 0;
+    width: 250px;
+    background-color: var(--colorBase);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-start;
+    padding: 30px 0;
 }
 
 .column a {
     font: normal normal 600 1.1em/100% var(--fontBase);
-    text-decoration:none;
-    color:#0a527b;
-    transition:0.25s ease-in-out;
+    text-decoration: none;
+    color: #0a527b;
+    transition: 0.25s ease-in-out;
 }
 
 .column h2 {
-    width:100%;
-    background-color:#B2EBF2;
-    font:normal normal 600 1.1em/130% var(--fontTitles);
-    color:#0a527b;
-    text-transform:uppercase;
-    font-weight:700;
-    text-align:center;
-    padding:10px 0px;
+    width: 100%;
+    background-color: #B2EBF2;
+    font: normal normal 600 1.1em/130% var(--fontTitles);
+    color: #0a527b;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 0px;
 }
 
 .photo {
-    width:60%;
-    height:auto;
-    border-radius:50%;
-    border:5px solid rgba(0,0,0,0.10);
-    margin:0px 0px 10px 0px;
-    display:block;
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid rgba(0,0,0,0.10);
+    margin: 0px 0px 10px 0px;
+    display: block;
 }
 
 .column nav li {
-    margin:10px 0;
+    margin: 10px 0;
 }
 
 .column nav {
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
 .column nav a {
-    text-transform:uppercase;
+    text-transform: uppercase;
     font: normal normal 600 1.1em/100% var(--fontTitles);
-    color:white;
+    color: white;
 }
 
 .contact a:hover {
-    filter:brightness(1.2);
+    filter: brightness(1.2);
 }
 
 .navaside {
-    display:block;
+    display: block;
     text-align: center;
 }
 
 .column p {
-    width:100%;
+    width: 100%;
 }
 
 .column div {
-    padding:20px 20px;
+    padding: 20px 30px;
 }
 
 .column p span {
-    font:normal normal 600 1.0em/100% var(--fontTitles);
+    font: normal normal 600 1.0em/100% var(--fontTitles);
 }
 
 .contact-icons .fab {
-    font-size:20px;
-    padding:5px;
+    font-size: 20px;
+    margin: 0 10px 0 0;
 }
 
 .loisirs {
-    width:100%;
-    display:flex;
-    justify-content:space-around;
-    padding:5px 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 10px;
 }
 
 .loisirs .fas {
-    font-size:30px;
-    width:50px;
-    line-height:40px;
-    padding:5px;
-    border-radius:50%;
-    background-color:rgba(0,0,0,0.1);
-    text-align:center;
-    color:rgba(0,0,0,0.75);
+    font-size: 30px;
+    width: 50px;
+    line-height: 40px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.1);
+    text-align: center;
+    color: rgba(0,0,0,0.75);
 }
 
 /*PARTIE DROITE*/
 
 .main {
     padding: 40px;
-    background-color:#fff;
-    width:calc(100% - 250px);
+    background-color: #fff;
+    width: calc(100% - 250px);
 }
 
 .header {
-    width:100%;
-    display:flex;
-    justify-content:space-between;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header .photo-mobile {
-    width:100px; 
-    height:100px;
-    display:none;
+    width: 100px; 
+    height: 100px;
+    display: none;
     border: 5px solid #ddd;
-    border-radius:50%;
+    border-radius: 50%;
 }
 
 .main h1 {
     font: normal normal 500 50px/130% var(--fontTitles);
-    text-transform:uppercase;
-    position:relative;
-    letter-spacing:-2px;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: -2px;
 }
 
 .main h1 span {
-    color:var(--colorBase);
+    color: var(--colorBase);
 }
 
 .main h2 {
-    position:relative;
-    margin:0 0 20px 0;
+    position: relative;
+    margin: 0 0 20px 0;
     font: normal normal 500 20px/150% var(--fontBase);
 }
 
 .main h2:after {
-    content:"";
-    width:100px;
-    height:0px;
+    content: "";
+    width: 100px;
+    height: 0px;
     border-bottom: 2px solid var(--colorBase);
-    position:absolute;
-    bottom:-0px;
-    left:0px;
+    position: absolute;
+    bottom: -0px;
+    left: 0px;
 }
 
 .navmain {
-    display:none;
-    margin:0 0 20px 0;
-    text-align:center;
+    display: none;
+    margin: 0 0 20px 0;
+    text-align: center;
 }
 
 .navmain a {
-    color:var(--colorBase);
+    color: var(--colorBase);
     font: normal normal 600 1.4em/150% var(--fontTitles);
-    text-decoration:none;
-    text-transform:uppercase;
-    transition:0.25s ease-in-out;
-    margin:0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.25s ease-in-out;
+    margin: 0 10px;
 }
 
 .navmain a:hover {
-    filter:saturate(1.5);
+    filter: saturate(1.5);
 }
 
 .main h3 {
     font: normal normal 400 24px/130% var(--fontTitles);
-    text-transform:uppercase;
-    letter-spacing:-1px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
     border-bottom: 1px solid var(--colorBase);
-    padding:10px 0;
-    margin-bottom:10px;
+    padding: 10px 0;
+    margin-bottom: 10px;
 }
 
 .main h3 i.fas {
-    color:var(--colorBase);
+    color: var(--colorBase);
     padding: 0px 5px;
 }
 
 .item {
-    width:100%;
-    display:flex;
+    width: 100%;
+    display: flex;
     flex-flow: row wrap;
-    padding:20px;
+    padding: 20px;
 }
 
 .periode {
-    width:30%;
+    width: 30%;
     font: normal normal 700 14px/130% var(--fontBase);
-    position:relative;
+    position: relative;
 }
 
 .periode .fas {
-    position:absolute;
+    position: absolute;
     left: -20px;
     top: 1px;
-    font-size:12px;
-    line-height:18px;
-    color:var(--colorBase);
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--colorBase);
 }
 
 .info {
-    width:70%;
+    width: 70%;
 }
 
 .info h4, .reco h4 {
-    font:normal normal 700 1.1em/130% var(--fontTitles);
-    text-transform:uppercase;
-    margin-bottom:0px;
+    font: normal normal 700 1.1em/130% var(--fontTitles);
+    text-transform: uppercase;
+    margin-bottom: 0px;
 }
 
 .info h5, .reco h5 {
-    font:normal normal 600 1.0em/130% var(--fontTitles);
-    margin:0.4em 0;
-    color:var(--colorBase);
+    font: normal normal 600 1.0em/130% var(--fontTitles);
+    margin: 0.4em 0;
+    color: var(--colorBase);
 }
 
 .info p, .reco p {
-    font: normal normal 500 0.84em/140% var(--fontBase);
-    margin:0.4em 0;
+    font: normal normal 500 0.84em/160% var(--fontBase);
+    margin: 0.4em 0;
 }
 
 .reco {
-    width:50%;
+    width: 50%;
 }
 
 /*MEDIA QUERIES*/
 
 @media screen and (max-width:768px){
     .container{
-        flex-flow:column-reverse wrap;
+        flex-flow: column-reverse wrap;
     }
 
     /*GENERAUX*/
 
     p {
-        font:normal normal 500 14px/100% var(--fontTitles);
-        padding:5px;
+        font: normal normal 500 14px/100% var(--fontTitles);
+        padding: 5px;
     }
 
     /*ASIDE EN FOOTER*/
 
     .column {
-        width:100%;
-        padding:10px 0;
+        width: 100%;
+        padding: 10px 0;
     }
 
     .navaside {
-        display:none;
+        display: none;
     }
 
     .column h2 {  
-        font:normal normal 600 18px/100% var(--fontTitles);
+        font: normal normal 600 18px/100% var(--fontTitles);
     }
 
     .column p {
-        word-break:break-all;
+        word-break: break-all;
     }
 
     .contact {
-        display:flex;
-        flex-flow:row wrap;
+        display: flex;
+        flex-flow: row wrap;
     }
 
     .contact p {
-        width:50%;
+        width: 50%;
     }
 
     /*MAIN*/
 
     .main {
-        width:100%;
-        padding:20px;
+        width: 100%;
+        padding: 20px;
     }
 
     .hide-on-mobile {
-        display:none;
+        display: none;
     }
 
     .navmain {
-        display:block;
+        display: block;
     }
 
     .periode {
-        width:100%;
+        width: 100%;
     }
 
     .periode {
@@ -320,16 +320,20 @@ p {
 
     .periode .fas {
         left: -20px;
-        top:0px;
+        top: 0px;
         font-size: 10px;
     }
 
     .info {
-        width:100%;
+        width: 100%;
+    }
+
+    .info p{
+        padding: 5px 0;
     }
     
     .header .photo-mobile {
-        display:block;
+        display: block;
     }
 
     .item {
@@ -337,13 +341,13 @@ p {
     }
 
     .reco {
-        width:100%;
+        width: 100%;
     }
 
     /*TITLES*/
 
     .main h1 {
-        font-size:1.8em;
+        font-size: 1.8em;
     }
 
     .main h2 {
