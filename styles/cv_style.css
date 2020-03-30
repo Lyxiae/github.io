@@ -29,7 +29,24 @@ p {
     flex-flow: row wrap;
     justify-content: center;
     align-content: flex-start;
-    padding: 30px 0;
+    padding: 10px 0;
+}
+.column div {
+    padding: 20px 30px;
+}
+
+div.column-head {
+    width:100%;
+    display:flex;
+    padding:20px 30px;
+    align-content:center;
+    align-items:center;
+    justify-content:center;
+}
+
+
+.show-on-mobile {
+    display:none;
 }
 
 .column a {
@@ -50,8 +67,35 @@ p {
     padding: 10px 0px;
 }
 
+.column-head h1 {
+    font: normal normal 500 24px/130% 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: -2px;
+    color:white;
+}
+
+.column-head h2 {
+    position: relative;
+    margin: 0;
+    font: normal normal 500 16px/150% 'Lato', sans-serif;
+    background: none;
+    color:black;
+    text-align:left;
+}
+
+.column-head h2:after {
+    content: "";
+    width: 100px;
+    height: 0px;
+    border-bottom: 2px solid #fff;
+    position: absolute;
+    bottom: -0px;
+    left: 0px;
+}
+
 .photo {
-    width: 60%;
+    width: 80%;
     height: auto;
     border-radius: 50%;
     border: 5px solid rgba(0,0,0,0.10);
@@ -86,9 +130,7 @@ p {
     width: 100%;
 }
 
-.column div {
-    padding: 20px 30px;
-}
+
 
 .column p span {
     font: normal normal 600 1.0em/100% 'Montserrat', sans-serif;
@@ -250,7 +292,7 @@ p {
 
 @media screen and (max-width:768px){
     .container{
-        flex-flow: column-reverse wrap;
+        flex-flow: column wrap;
     }
 
     /*GENERAUX*/
@@ -266,7 +308,13 @@ p {
         width: 100%;
         padding: 10px 0;
     }
-
+    div.column-head {
+        justify-content:space-between;
+    }
+    div.show-on-mobile {
+        display:inline-block;
+        padding:10px;
+    }
     .navaside {
         display: none;
     }
@@ -275,17 +323,20 @@ p {
         font: normal normal 600 18px/100% 'Montserrat', sans-serif;
     }
 
-    .column p {
-        word-break: break-all;
-    }
-
     .contact {
         display: flex;
         flex-flow: row wrap;
+        word-break: break-all;
     }
 
     .contact p {
         width: 50%;
+    }
+
+    .photo {
+        width: 100px; 
+    height: 100px;
+    border-radius: 50%;
     }
 
     /*MAIN*/
@@ -325,9 +376,9 @@ p {
         padding: 5px 0;
     }
     
-    .header .photo-mobile {
+    /*.header .photo-mobile {
         display: block;
-    }
+    }*/
 
     .item {
         padding: 30px;
