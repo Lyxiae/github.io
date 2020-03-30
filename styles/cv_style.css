@@ -1,11 +1,4 @@
 /*STYLES GENERAUX*/
-
-:root {
-    --fontBase: 'Lato', sans-serif;
-    --fontTitles: 'Montserrat', sans-serif;
-    --colorBase: #00BCD4;
-}
-
 *, :before, :after {
     box-sizing: border-box;
 }
